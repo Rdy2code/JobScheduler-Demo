@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Notification Scheduler</string>
+
+    <!--Java Resources-->
+
+        <!--MainActivity-->
+    <string name="toast_jobs_cancelled">Jobs cancelled</string>
+    <string name="toast_job_scheduled">Job scheduled, job will run when the constraints are met.</string>
+    <string name="toast_set_constraint_message">Please set at least one constraint</string>
+    <string name="seekbar_set">%1$d %2$s</string>
+    <string name="seekbar_not_set">Not Set</string>
+        <!--NotificationJobService-->
+    <string name="channel_name">Job Service Notification</string>
+    <string name="channel_description">Notifications from Job Service</string>
+    <string name="notification_title">Job Service</string>
+    <string name="notification_text">Your Job is running</string>
+
+    <!--XML Resources-->
+
+        <!--RadioButtons-->
+    <string name="textview_radiogroup_heading">Network Type Required: </string>
+    <string name="radiobutton_network_none">None</string>
+    <string name="radiobutton_network_any">Any</string>
+    <string name="radiobutton_network_wifi">Wifi</string>
+        <!--Switches-->
+    <string name="label_switches_heading">Requires: </string>
+    <string name="label_switch_idle">Device Idle</string>
+    <string name="label_switch_charging">Device Charging</string>
+        <!--SeekBar-->
+    <string name="seekbar_label">Override Deadline:</string>
+    <string name="seekbar_progress">Not Set</string>
+        <!--Buttons-->
+    <string name="button_schedule_job">Schedule Job</string>
+    <string name="button_cancel_job">Cancel Job</string>
+
+</resources>
